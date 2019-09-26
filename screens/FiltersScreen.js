@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import HeaderButton, {HeaderButtons, Item} from "react-navigation-header-buttons";
-import FavoritesScreen from "./FavoritesScreen";
+import {HeaderButtons, Item} from "react-navigation-header-buttons";
+import HeaderButton from "../components/HeaderButton";
 
 const FiltersScreen = props => {
     return (
